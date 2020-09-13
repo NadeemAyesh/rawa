@@ -3804,7 +3804,7 @@ bottom: 0;
 }
 
 .offer {
-  padding-top: 100px;
+  padding-top: 20px;
 }
 
 .offer .head {
@@ -3835,9 +3835,13 @@ bottom: 0;
   line-height: normal;
 }
 
+.offer-item {
+  border: none !important;
+}
+
 .offer-item .card-img {
   position: relative;
-  height: 235px;
+  height: 210px;
   width: 100%;
   overflow: hidden;
   border-radius: 0;
@@ -3854,8 +3858,6 @@ bottom: 0;
 }
 
 .offer-item:hover .card-img img {
-  filter: none !important;
-  -webkit-filter: none !important;
 }
 
 .offer .offer-item .offer-price img {
@@ -3863,6 +3865,10 @@ height: 68px;
 width: 63px;
 max-width: 100%;
 z-index: 9;
+}
+
+.offer .card .card-body {
+  padding-bottom: 15px;
 }
 
 .offer .offer-item .offer-price h5 {
@@ -3873,11 +3879,17 @@ z-index: 9;
     z-index: 10;
 } 
 
+.offer .card .about-price .price h5,
+.offer .card .about-price .price span {
+  margin-bottom: 0 !important;
+  margin-top: 0 !important;
+}
+
 .offer .offer-item .offer-price {
     position: absolute;
     top: auto;
     left: auto;
-    top: 197px;
+    top: 172px;
     right: 15px;
 }
 

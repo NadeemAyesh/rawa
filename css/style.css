@@ -3791,7 +3791,7 @@ bottom: 0;
   position: relative;
 }
 
-.more-product::after {
+.bg-after {
   content: '';
   display: block;
   position: absolute;

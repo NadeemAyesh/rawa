@@ -809,11 +809,38 @@ footer .downFooter .socialMedia a:hover {
   outline: none;
   padding: 6px 0;
   border-bottom: 3px solid #fff;
+  position: relative;
+}
+
+.fashion-gallery .header #filters .button::after {
+   content: ''; 
+  display: block;
+  position: absolute;
+  bottom: -7px; 
+  left: 50%;
+  width: 0;
+  height: 6px;
+  background: #b73a7a;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%); 
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  border-radius: 5px;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease; 
+  -moz-transition: all 0.3s ease; 
+  -ms-transition: all 0.3s ease; 
+  -o-transition: all 0.3s ease;
 }
 
 .fashion-gallery .header #filters .is-checked {
-  border-bottom: 3px solid #b73a7a;
+  /* border-bottom: 3px solid #b73a7a; */
   color: #5a5a5a;
+}
+
+.fashion-gallery .header #filters .is-checked::after  {
+  width: 100%;
 }
 
 .fashion-gallery img {

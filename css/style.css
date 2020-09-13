@@ -4225,24 +4225,26 @@ footer .middleFooter a:hover::before {
 }
 
 .fixed-top-bar .navbar-brand {
-  margin-right: 38px;
+  margin-right: 18px;
 }
 
 .fixed-top-bar .navbar-brand img {
-  height: 24px;
+  height: 30px;
 }
 
-.cart-link,
-.cart-link span {
+.cart-link {
   padding: 8px 15px !important;
   background-color: #2F3539;
   color: #FFFFFF !important;
 }
 
 .cart-link span {
-  padding-right: 0 !important;
-  border-left: 3px solid #282C2F;
-  margin-left: 15px !important;
+  margin-left: 10px !important;
+}
+
+.form-bar{
+  border-left: 1px solid #3C3F41;
+  border-right: 1px solid #3C3F41;
 }
 
 .form-bar .form-control {
@@ -4270,6 +4272,7 @@ footer .middleFooter a:hover::before {
   -moz-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   -o-transform: translateY(-50%);
+  color: #727272;
 }
 /* fixed-top-bar  */
 header .header-top .account-cart .dropdown button,

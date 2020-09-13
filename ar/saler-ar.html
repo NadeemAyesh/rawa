@@ -1,0 +1,879 @@
+<!DOCTYPE html>
+<html lang="ar">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>سالر</title>
+    <!--Css links start-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+    <!-- Basic stylesheet -->
+    <link rel="stylesheet" href="/css/owl.carousel.min.css" />
+
+    <!-- Default Theme -->
+
+<link rel="stylesheet" href="/css/datepicker.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/13.0.0/css/intlTelInput.css">
+
+    <link rel="stylesheet" href="/css/all.min.css" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/style-rtl.css">
+    <!--Css links end-->
+</head>
+
+<body>
+<!--Header start-->
+<header>
+    <div class="container">
+      <div class="header-top">
+        <!--Language select start-->
+
+        <div class="lang">
+
+          <div class="dropdown">
+            <button class="btn  dropdown-toggle" type="button" id="country_select" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              <img src="/img/1200px-Flag_of_the_United_Arab_Emirates.svg.png" alt="" /> <span>الامارات</span>
+            </button>
+            <div class="dropdown-menu" aria-labelledby="country_select">
+              <a class="dropdown-item" href="#"><img src="/img/1200px-Flag_of_the_United_Arab_Emirates.svg.png" alt="" />
+                <span>السعودية</span></a>
+            </div>
+          </div>
+
+          <a href="/saler.html">English</a>
+        </div>
+        <!--Language select end-->
+        <div class="logo">
+          <img src="/img/logo-inline.png" alt="rawa logo" />
+        </div>
+        <div class="account-cart">
+
+            <div class="dropdown">
+                <button class="btn dropdown-toggle" type="button" id="dropdown_account" data-toggle="dropdown"
+                  aria-haspopup="true" aria-expanded="false">
+                  <i class="fas fa-user"></i>
+                  الحساب
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdown_account">
+                  <a class="dropdown-item" href="#">لوحة التحكم</a>
+                  <a class="dropdown-item" href="#">الاعدادات</a>
+                  <a class="dropdown-item" href="#">خروج</a>
+                </div>
+              </div>
+          <div class="cart">
+            <a href="">
+              <i class="fas fa-shopping-cart"></i>السلة <span>0</span>
+            </a>
+          </div>
+        </div>
+
+      </div>
+      <div class="nav-bar">
+        <div class="categories-list d-none d-md-flex">
+          <div class="item">
+            <div class="icon">
+              <img src="/img/Group 40.png" alt="" />
+            </div>
+            <div class="name">
+              <a href=""> الكترونيات </a>
+            </div>
+          </div>
+          <div class="item">
+            <div class="icon">
+              <img src="/img/Group 74.png" alt="" />
+            </div>
+            <div class="name">
+              <a href="allProduct.html"> موضة </a>
+            </div>
+          </div>
+          <div class="item active">
+            <div class="icon">
+              <img src="/img/Group 75.png" alt="" />
+            </div>
+            <div class="name">
+              <a href="allProduct.html"> رياضة </a>
+            </div>
+          </div>
+          <div class="item">
+            <div class="icon">
+              <img src="/img/Group 44.png" alt="" />
+            </div>
+            <div class="name">
+              <a href="allProduct.html"> الرئيسية </a>
+            </div>
+          </div>
+          <div class="item">
+            <div class="icon">
+              <img src="/img/Group 42.png" alt="" />
+            </div>
+            <div class="name">
+              <a href="allProduct.html"> مطبخ </a>
+            </div>
+          </div>
+          <div class="item">
+            <div class="icon">
+              <img src="/img/Group 59.png" alt="" />
+            </div>
+            <div class="name">
+              <a href="allProduct.html"> جمال </a>
+            </div>
+          </div>
+          <div class="item">
+            <div class="icon">
+              <img src="/img/Group 71.png" alt="" />
+            </div>
+            <div class="name">
+              <a href="allProduct.html"> عطور </a>
+            </div>
+          </div>
+          <div class="item">
+            <div class="icon">
+              <img src="/img/Group 26.png" alt="" />
+            </div>
+            <div class="name">
+              <a href="allProduct.html"> اطفال </a>
+            </div>
+          </div>
+          <div class="item">
+            <div class="icon">
+              <img src="/img/Group 60.png" alt="" />
+            </div>
+            <div class="name">
+              <a href="allProduct.html"> العاب </a>
+            </div>
+          </div>
+        </div>
+        <div class="categories-list categories-list-slider   d-md-none owl-carousel">
+          <div class="item">
+            <div class="icon">
+              <img src="/img/Group 40.png" alt="" />
+            </div>
+            <div class="name">
+              <a href=""> الكترونيات </a>
+            </div>
+          </div>
+          <div class="item">
+            <div class="icon">
+              <img src="/img/Group 74.png" alt="" />
+            </div>
+            <div class="name">
+              <a href="allProduct.html"> موضة </a>
+            </div>
+          </div>
+          <div class="item active">
+            <div class="icon">
+              <img src="/img/Group 75.png" alt="" />
+            </div>
+            <div class="name">
+              <a href="allProduct.html"> رياضة </a>
+            </div>
+          </div>
+          <div class="item">
+            <div class="icon">
+              <img src="/img/Group 44.png" alt="" />
+            </div>
+            <div class="name">
+              <a href="allProduct.html"> الرئيسية </a>
+            </div>
+          </div>
+          <div class="item">
+            <div class="icon">
+              <img src="/img/Group 42.png" alt="" />
+            </div>
+            <div class="name">
+              <a href="allProduct.html"> مطبخ </a>
+            </div>
+          </div>
+          <div class="item">
+            <div class="icon">
+              <img src="/img/Group 59.png" alt="" />
+            </div>
+            <div class="name">
+              <a href="allProduct.html"> جمال </a>
+            </div>
+          </div>
+          <div class="item">
+            <div class="icon">
+              <img src="/img/Group 71.png" alt="" />
+            </div>
+            <div class="name">
+              <a href="allProduct.html"> عطور </a>
+            </div>
+          </div>
+          <div class="item">
+            <div class="icon">
+              <img src="/img/Group 26.png" alt="" />
+            </div>
+            <div class="name">
+              <a href="allProduct.html"> اطفال </a>
+            </div>
+          </div>
+          <div class="item">
+            <div class="icon">
+              <img src="/img/Group 60.png" alt="" />
+            </div>
+            <div class="name">
+              <a href="allProduct.html"> العاب </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="input-group mb-3">
+        <input type="text" class="form-control" placeholder="دعنا نساعدك فيما تعتقده" />
+        <div class="input-group-append">
+          <button class="btn"><i class="fas fa-search"></i></button>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!--Header end-->
+    <section class="saler">
+        <h2>إنشاء حساب</h2>
+        <div class="saler-head">
+            سالر
+        </div>
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item">
+              <a class="nav-link active" id="first-tab" data-toggle="tab" href="#first" role="tab" aria-controls="first"
+                aria-selected="true">01</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="second-tab" data-toggle="tab" href="#second" role="tab" aria-controls="second"
+                aria-selected="false">02</a>
+            </li>
+         
+          </ul>
+          <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active" id="first" role="tabpanel" aria-labelledby="first-tab">
+                <div class="inputs">
+                    <div class="container">
+                        <div class="row">
+                          
+                            <div class="col-sm-12 col-md-6">
+                                <label for="company">الاسم الاول</label>
+                                <div class="input-group mb-3">
+                                    <input type="text" class="form-control">
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-6">
+                                <label for="company">الكنية</label>
+                                <div class="input-group mb-3">
+                                    <input type="text" class="form-control">
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-6">
+                                <label for="company">رقم الجوال</label>
+                                <div class="input-group mb-3">
+                                    <input type="text" class="form-control">
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-6">
+                                <label for="company">الايميل</label>
+                                <div class="input-group mb-3">
+                                    <input type="text" class="form-control">
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-6">
+                                <label for="company">كلمة السر</label>
+                                <div class="input-group mb-3">
+                                    <input type="password" class="form-control">
+                                </div>
+                            </div>
+                             <div class="col-sm-12 col-md-6">
+                                <label for="company">تاكيد كلمة السر </label>
+                                <div class="input-group mb-3">
+                                    <input type="password" class="form-control">
+                                </div>
+                            </div>
+                         
+                            <div class="col-sm-12">
+                                <button class="btn" id="create">انشاء</button>
+                            </div>
+                            <div class="have-account">
+                                <p>لديك حساب بالفعل؟</p>
+                                <a href="">دخول</a>
+                            </div>
+                        </div>
+                    </div>
+        
+                </div>
+            </div>
+            <div class="tab-pane fade" id="second" role="tabpanel" aria-labelledby="second-tab">
+                <div class="inputs">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="upload-logo">
+                                    <label for="file-input1" class="icon-label">
+                                        <i class="fas fa-upload"></i>
+                                        <span>تحميل الشعار</span>
+                                    </label>
+                                    <input type="file" class="d-none" id="file-input1" multiple>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-6">
+                                <label for="company">الشركة</label>
+                                <div class="input-group mb-3">
+                                    <input type="text" class="form-control" id="company">
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-6">
+                                <label for="company">اسم الشركة القانوني</label>
+                                <div class="input-group mb-3">
+                                    <input type="text" class="form-control">
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-6">
+                                <label for="company">تصنيف الشركة</label>
+                                <div class="input-group mb-3">
+                                    <input type="text" class="form-control">
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-6">
+                                <label for="company">رقم الرخصة التجارية</label>
+                                <div class="input-group mb-3">
+                                    <input type="text" class="form-control">
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-6">
+                                <label for="company">رقم الجوال</label>
+                                <div class="input-group mb-3">
+                                    <input type="text" class="form-control">
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-6">
+                                <label for="company">الايميل</label>
+                                <div class="input-group mb-3">
+                                    <input type="text" class="form-control" >
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-6">
+                                <label for="company">رقم الرخصة</label>
+                                <div class="input-group mb-3">
+                                    <input type="text" class="form-control">
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-6">
+                                <label for="company">تاريخ انتهاء الترخيص</label>
+                                <div class="input-group mb-3">
+                                    <div data-toggle="datepicker"></div>
+                                    <input data-toggle="datepicker" type="text" class="form-control" >
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-6">
+                                <label for="company">ارفع الرخصة</label>
+                                <div class="input-group mb-3">
+                                    <i class="fas fa-upload"></i>
+                                    <label for="upload-license" class="form-control">اختر ملف, PDF, JPG, PNG</label>
+                                   
+                                    <input type="file" id="upload-license" class="d-none">
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-6">
+                                <label for="company">تاريخ انتهاء الترخيص</label>
+                                <div class="input-group mb-3">
+                                    <div data-toggle="datepicker"></div>
+                                    <input type="text" class="form-control" data-toggle="datepicker">
+                                </div>
+                            </div>
+                            <div class="col-sm-12">
+                                <label for="company">عنوان الشركة</label>
+                                <div class="input-group mb-3">
+                                    <input type="text" class="form-control">
+                                </div>
+                            </div>
+                             <div class="col-sm-12 col-md-6">
+                                <label for="company">رقم جواز السفر</label>
+                                <div class="input-group mb-3">
+                                    <input type="text" class="form-control">
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-6">
+                                <label for="company">وقت نفاذ صلاحيه جواز السفر</label>
+                                <div class="input-group mb-3">
+                                    <div data-toggle="datepicker"></div>
+                                    <input type="text" class="form-control" data-toggle="datepicker">
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-6">
+                                <label for="company">صورة جواز السفر</label>
+                                <div class="input-group mb-3">
+                                      <i class="fas fa-upload"></i>
+                                    <label for="passport-photo" class="form-control">اختر ملف, PDF, JPG, PNG</label>
+                                    <input type="file" id="passport-photo" class="d-none">
+                                </div>
+                            </div>
+                             <div class="col-sm-12 col-md-6">
+                                <label for="company">بطاقة التعريف</label>
+                                <div class="input-group mb-3">
+                                    <input type="text" class="form-control">
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-6">
+                                <label for="company">تاريخ الإنتهاء</label>
+                                <div class="input-group mb-3">
+                                    <div data-toggle="datepicker"></div>
+                                    <input type="text" class="form-control" data-toggle="datepicker">
+                                </div>
+                            </div>
+                             <div class="col-sm-12 col-md-6">
+                                <label for="company">صورة بطاقة الهوية</label>
+                                <div class="input-group mb-3">
+                                    <i class="fas fa-upload"></i>
+                                    <label for="card-photo" class="form-control">اختر ملف, PDF, JPG, PNG</label>
+                                    <input type="file" id="card-photo" class="d-none">
+
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-6">
+                                <label for="company">كلمة السر</label>
+                                <div class="input-group mb-3">
+                                    <input type="password" class="form-control">
+                                </div>
+                            </div>
+                             <div class="col-sm-12 col-md-6">
+                                <label for="company">تاكيد كلمة السر</label>
+                                <div class="input-group mb-3">
+                                    <input type="password" class="form-control">
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="location-info">
+                                    <div class="head">
+                                      <p>حدد موقع الشركة على الخريطة</p>
+                                    </div>
+                                    <div class="map-box">
+                                      <button id="locat_me" class="btn">تحديد موقع لي <i class="fas fa-map-marker-alt"></i></button>
+                    
+                                      <input id="pac-input" class="controls form-control" type="text" placeholder="ابحث في موقعك" />
+                                      <div id="map">
+                      
+                                      </div>
+                                      <div class="form-check">
+                                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                        <label class="form-check-label" for="exampleCheck1">قبول الشروط والأحكام</label>
+                                      </div>
+                                      
+                                    </div>
+                                 
+                                  </div>
+                            </div>
+                            <div class="col-sm-12">
+                                <button class="btn" id="create">انشاء</button>
+                            </div>
+                        </div>
+                    </div>
+        
+                </div>
+            </div>
+          
+          </div>
+       
+    </section>
+
+  <!--Footer start-->
+  <footer>
+    <div class="upperFooter">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-2">
+            <div class="title">
+              الكترونيات
+            </div>
+            <ul>
+              <a href="">
+                <li>الهواتف المحمولة</li>
+              </a>
+              <a href="">
+                <li>أجهزة لوحية</li>
+              </a>
+              <a href="">
+                <li>أجهزة الكمبيوتر المحمولة</li>
+              </a>
+              <a href="">
+                <li>الأجهزة المنزلية</li>
+              </a>
+              <a href="">
+                <li>الكاميرا والصور والفيديو</li>
+              </a>
+              <a href="">
+                <li>التلفزيونات</li>
+              </a>
+              <a href="">
+                <li>سماعات الرأس</li>
+              </a>
+              <a href="">
+                <li>العاب الكترونية</li>
+              </a>
+            </ul>
+          </div>
+          <div class="col-md-2">
+            <div class="title">
+              موضة
+            </div>
+            <ul>
+              <a href="">
+                <li>ازياء النساء </li>
+              </a>
+              <a href="">
+                <li>أزياء الرجال</li>
+              </a>
+              <a href="">
+                <li>أزياء الفتيات</li>
+              </a>
+              <a href="">
+                <li>أزياء الأولاد</li>
+              </a>
+              <a href="">
+                <li>ساعات</li>
+              </a>
+              <a href="">
+                <li>مجوهرات</li>
+              </a>
+              <a href="">
+                <li>حقائب نسائية</li>
+              </a>
+              <a href="">
+                <li>نظارات رجالية</li>
+              </a>
+            </ul>
+          </div>
+          <div class="col-md-2">
+            <div class="title">
+                المنزل والمطبخ
+            </div>
+            <ul>
+              <a href="">
+                <li>حمام</li>
+              </a>
+              <a href="">
+                <li>ديكور المنزل</li>
+              </a>
+              <a href="">
+                <li>المطبخ والطعام</li>
+              </a>
+              <a href="">
+                <li>أدوات وتحسين المنزل</li>
+              </a>
+              <a href="">
+                <li>الصوت والفيديو</li>
+              </a>
+              <a href="">
+                <li>أثاث المنزل</li>
+              </a>
+              <a href="">
+                <li>الفناء والعشب والحديقة</li>
+              </a>
+              <a href="">
+                <li>مستلزمات الحيوانات الأليفة</li>
+              </a>
+            </ul>
+          </div>
+          <div class="col-md-2">
+            <div class="title">
+                جمال
+            </div>
+            <ul>
+              <a href="">
+                <li>العطر</li>
+              </a>
+              <a href="">
+                <li>مكياج</li>
+              </a>
+              <a href="">
+                <li>العناية بالشعر</li>
+              </a>
+              <a href="">
+                <li>عناية البشرة</li>
+              </a>
+              <a href="">
+                <li>رعاية شخصية</li>
+              </a>
+              <a href="">
+                <li>أدوات وإكسسوارات</li>
+              </a>
+              <a href="">
+                <li>الاستمالة الرجال</li>
+              </a>
+              <a href="">
+                <li>الفيتامينات</li>
+              </a>
+            </ul>
+          </div>
+          <div class="col-md-2">
+            <div class="title">
+              اطفال
+            </div>
+            <ul>
+              <a href="">
+                <li>عربات الأطفال وعربات الأطفال</li>
+              </a>
+              <a href="">
+                <li>مقاعد السيارة</li>
+              </a>
+              <a href="">
+                <li>تغذية</li>
+              </a>
+              <a href="">
+                <li>الاستحمام والعناية بالبشرة</li>
+              </a>
+              <a href="">
+                <li>حفاضات</li>
+              </a>
+              <a href="">
+                <li>ملابس وأحذية أطفال</li>
+              </a>
+              <a href="">
+                <li>ألعاب الأطفال والرضع</li>
+              </a>
+              <a href="">
+                <li>أغذية الأطفال</li>
+              </a>
+            </ul>
+          </div>
+          <div class="col-md-2">
+            <div class="title">
+              ارقى الماركات
+            </div>
+            <ul>
+              <a href="">
+                <li>مذركير</li>
+              </a>
+              <a href="">
+                <li>ابل</li>
+              </a>
+              <a href="">
+                <li>نايك</li>
+              </a>
+              <a href="">
+                <li>سامسونج</li>
+              </a>
+              <a href="">
+                <li>تيفال</li>
+              </a>
+              <a href="">
+                <li>ل'أوريل باريس</li>
+              </a>
+              <a href="">
+                <li>سكيتشرز</li>
+              </a>
+              <a href="">
+                <li>سلسال</li>
+              </a>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="middleFooter">
+      <div class="container">
+        <ul class="middleFooter-inner">
+          <li><a href="">وظائف</a></li>
+         <li> <a href="">سياسة الضمان</a></li>
+         <li> <a href="">بيع معنا </a></li>
+          <li><a href="">شروط الاستخدام</a></li>
+          <li><a href="">شروط البيع</a></li>
+         <li> <a href="">سياسة خاصة</a></li>
+          <li><a href="">حقوق المستهلك</a></li>
+        </ul>
+  
+      </div>
+    </div>
+    <div class="downFooter">
+      <div class="container">
+        <div class="row d-flex align-items-center">
+          <div class="col-md-4">
+            <div class="allRights">
+                © 2020 روى. كل الحقوق محفوظة.
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="logo">
+              <img src="/img/logo-inline.png" alt="logo">
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="socialMedia">
+              <a href=""><i class="fab fa-facebook-f"></i></a>
+              <a href=""><i class="fab fa-instagram"></i></a>
+              <a href=""><i class="fab fa-twitter"></i></a>
+              <a href=""><i class="fab fa-linkedin-in"></i></a>
+              <a href=""><i class="fab fa-youtube"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!--Footer end-->
+    <!--Start scripts-->
+    <script src="/js/all.min.js"></script>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"
+        integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/13.0.0/js/intlTelInput.min.js"></script>
+
+    <script>
+        $(function () {
+            $('.btn-circle').on('click', function () {
+                $('.btn-circle.btn-info').removeClass('btn-info').addClass('btn-default');
+                $(this).addClass('btn-info').removeClass('btn-default').blur();
+            });
+
+            $('.next-step, .prev-step').on('click', function (e) {
+                var $activeTab = $('.tab-pane.active');
+
+                $('.btn-circle.btn-info').removeClass('btn-info').addClass('btn-default');
+
+                if ($(e.target).hasClass('next-step')) {
+                    var nextTab = $activeTab.next('.tab-pane').attr('id');
+                    $('[href="#' + nextTab + '"]').addClass('btn-info').removeClass('btn-default');
+                    $('[href="#' + nextTab + '"]').tab('show');
+                }
+                else {
+                    var prevTab = $activeTab.prev('.tab-pane').attr('id');
+                    $('[href="#' + prevTab + '"]').addClass('btn-info').removeClass('btn-default');
+                    $('[href="#' + prevTab + '"]').tab('show');
+                }
+            });
+        });
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <!--Isotope filter-->
+    <script src="/js/isotope.pkgd.min.js"></script>
+    <!--Controller filter-->
+   <script src="/js/datepicker.min.js"></script>
+   <!--Google map-->
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+
+  <script
+  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAuXqzzGjKZ6FzmjAlt_rBbwcteOFSvk8c&callback=initAutocomplete&libraries=places&v=weekly"
+  defer
+></script>
+  <script>
+    //copy and paste this in your script section.
+
+    (function(exports) {
+      "use strict";
+
+      // This example adds a search box to a map, using the Google Place Autocomplete
+      // feature. People can enter geographical searches. The search box will return a
+      // pick list containing a mix of places and predicted search terms.
+      // This example requires the Places library. Include the libraries=places
+      // parameter when you first load the API. For example:
+      // <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&libraries=places">
+        
+      function initAutocomplete() {
+        var latleng = {
+
+          lat: -33.8688,
+            lng: 151.2195
+        }
+        var map = new google.maps.Map(document.getElementById("map"), {
+          center: latleng ,
+          zoom: 13,
+          mapTypeId: "roadmap",
+          
+        }); // Create the search box and link it to the UI element.
+        var marker = new google.maps.Marker({position: latleng, map: map});
+
+document.getElementById("locat_me").addEventListener("click", function(){
+  
+  if (navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition(success, error);
+} else {
+    alert('location not supported');
+}
+
+//callbacks
+function error(msg) {
+    alert('error in geolocation');
+}
+
+function success(position) {
+    var lats = position.coords.latitude;
+    var lngs = position.coords.longitude;
+    map.setCenter(new google.maps.LatLng(lats, lngs));
+    var marker = new google.maps.Marker({position: {lat : lats , lng : lngs}, map: map});
+
+
+};
+
+
+});
+
+
+        var input = document.getElementById("pac-input");
+        var searchBox = new google.maps.places.SearchBox(input);
+        map.controls[google.maps.ControlPosition.TOP_LEFT].push(input); // Bias the SearchBox results towards current map's viewport.
+
+        map.addListener("bounds_changed", function() {
+          searchBox.setBounds(map.getBounds());
+        });
+        // var markers = []; // Listen for the event fired when the user selects a prediction and retrieve
+        // // more details for that place.
+
+        searchBox.addListener("places_changed", function() {
+          var places = searchBox.getPlaces();
+
+          if (places.length == 0) {
+            return;
+          } // Clear out the old markers.
+
+          markers.forEach(function(marker) {
+            marker.setMap(null);
+          });
+          markers = []; // For each place, get the icon, name and location.
+
+          var bounds = new google.maps.LatLngBounds();
+          places.forEach(function(place) {
+            if (!place.geometry) {
+              console.log("Returned place contains no geometry");
+              return;
+            }
+
+            var icon = {
+              url: place.icon,
+              size: new google.maps.Size(71, 71),
+              origin: new google.maps.Point(0, 0),
+              anchor: new google.maps.Point(17, 34),
+              scaledSize: new google.maps.Size(25, 25)
+            }; // Create a marker for each place.
+
+            markers.push(
+              new google.maps.Marker({
+                map: map,
+                icon: icon,
+                title: place.name,
+                position: place.geometry.location
+              })
+            );
+
+            if (place.geometry.viewport) {
+              // Only geocodes have viewport.
+              bounds.union(place.geometry.viewport);
+            } else {
+              bounds.extend(place.geometry.location);
+            }
+          });
+          map.fitBounds(bounds);
+        });
+      }
+
+      exports.initAutocomplete = initAutocomplete;
+    })((this.window = this.window || {}));
+  </script>
+    <!-- Owl Crousel-->
+    <script src="/js/owl.carousel.min.js"></script>
+    <script src="/js/main.js"></script>
+    <!--End scripts-->
+</body>
+
+</html>

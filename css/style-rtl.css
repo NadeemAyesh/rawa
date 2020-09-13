@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  direction: rtl;
+  font-family: 'Cairo', sans-serif;
+}
+
+.header-top .account-cart .dropdown-menu {
+  text-align: right;
+}
+
+.home-slider .text h1, .home-slider .text p {
+  letter-spacing: 0;
+}
+
+.payment, .conditions, .cart-sec, .pro-details, .new-product, .more-product, .offer, .kitchen-tools, .gamer, footer, .all-product, .checkout, .saler, .activate {
+  text-align: right;
+}
+
+.home-slider .input-group .input-group-append button {
+  left: 6px;
+  right: auto;
+}
+
+.offer .offer-price {
+  right: 55%;
+  left: auto;
+}
+
+.offer .offer-price h5 {
+  left: 40%;
+}
+
+.fashion-gallery {
+  background-size: cover;
+  background-position: center;
+  background-position-y: -300px;
+}
+
+.fashion-gallery .header .head span {
+  letter-spacing: 0;
+}
+
+.kitchen-tools #owl-demo-1 .owl-nav .owl-next {
+  left: -45px;
+  right: auto;
+}
+
+.kitchen-tools #owl-demo-1 .owl-nav .owl-prev {
+  right: -45px;
+  left: auto;
+}
+
+.brands #owl-demo .owl-nav .owl-next {
+  left: -45px;
+  right: auto;
+}
+
+.brands #owl-demo .owl-nav .owl-prev {
+  right: -45px;
+  left: auto;
+}
+
+.info .img2 img {
+  left: 97px;
+  right: auto;
+}
+
+header .input-group .input-group-append button {
+  left: 0;
+  right: auto;
+}
+
+.pro-details .about-product {
+  max-width: 100%;
+  text-align: right;
+  margin-right: 130px;
+}
+
+.pro-details .rating-review .review-box .rate {
+  margin-left: 30px;
+  margin-right: 0;
+}
+
+.pro-details .about-product .text .review {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.pro-details .about-product .text .review .favourite {
+  margin-bottom: 18px;
+}
+
+.pro-details .about-product .text .review .favourite span {
+  max-width: 100%;
+}
+
+.cart-sec .box .input-group .input-group-append {
+  left: 0;
+  right: auto;
+}
+
+.cart-sec .item .right-info .quantity {
+  padding: 8px 20px;
+}
+
+.quantity .plus {
+  margin: 0 36px 0 7px !important;
+}
+
+.checkout .tab-content #personal-information .content .input-info svg {
+  left: 94px;
+  right: auto;
+}
+
+.intl-tel-input.allow-dropdown .flag-container, .intl-tel-input.separate-dial-code .flag-container {
+  left: auto;
+  right: 0;
+}
+
+.intl-tel-input.allow-dropdown input, .intl-tel-input.allow-dropdown input[type=text], .intl-tel-input.allow-dropdown input[type=tel], .intl-tel-input.separate-dial-code input, .intl-tel-input.separate-dial-code input[type=text], .intl-tel-input.separate-dial-code input[type=tel] {
+  padding-left: 6px;
+  padding-right: 100px;
+  margin-left: 0;
+}
+
+.checkout .tab-content #orders-history .content-body .box .input-group .input-group-append {
+  left: 0;
+  right: auto;
+}
+
+.saler .nav-tabs > :first-child {
+  margin-left: 14px;
+}
+
+.saler .nav-tabs .nav-item #first-tab::after {
+  content: "";
+  width: 16px;
+  height: 4px;
+  background: #707070;
+  position: absolute;
+  -webkit-transform: translateX(-29px);
+          transform: translateX(-29px);
+}
+
+.saler .inputs .input-group svg {
+  right: auto;
+  left: 12px;
+}
+
+.saler .inputs .location-info .form-check .form-check-label {
+  margin-right: 20px;
+}
+/*# sourceMappingURL=style-rtl.css.map */

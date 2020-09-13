@@ -1,0 +1,1236 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CheckOut</title>
+    <!--Css links start-->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <!-- Basic stylesheet -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css" />
+
+    <!-- Default Theme -->
+    
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/13.0.0/css/intlTelInput.css">
+
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <!--Css links end-->
+  </head>
+  <body>
+    <!--Header start-->
+    <header>
+      <div class="container">
+        <div class="header-top">
+          <!--Language select start-->
+  
+          <div class="lang">
+  
+            <div class="dropdown">
+              <button class="btn  dropdown-toggle" type="button" id="country_select" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                <img src="img/1200px-Flag_of_the_United_Arab_Emirates.svg.png" alt="" /> <span>UAE</span>
+              </button>
+              <div class="dropdown-menu" aria-labelledby="country_select">
+                <a class="dropdown-item" href="#"><img src="img/1200px-Flag_of_the_United_Arab_Emirates.svg.png" alt="" />
+                  <span>SA</span></a>
+              </div>
+            </div>
+  
+            <a href="ar/checkout-ar.html">عربي</a>
+          </div>
+          <!--Language select end-->
+          <div class="logo">
+            <img src="img/logo-inline.png" alt="rawa logo" />
+          </div>
+          <div class="account-cart">
+  
+            <div class="dropdown">
+              <button class="btn dropdown-toggle" type="button" id="dropdown_account" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                <i class="fas fa-user"></i>
+                Account
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdown_account">
+                <a class="dropdown-item" href="#">Dashboard</a>
+                <a class="dropdown-item" href="#">Settings</a>
+                <a class="dropdown-item" href="#">Logout</a>
+              </div>
+            </div>
+            <div class="cart">
+              <a href="">
+                <i class="fas fa-shopping-cart"></i>Cart <span>0</span>
+              </a>
+            </div>
+          </div>
+  
+        </div>
+        <div class="nav-bar">
+          <div class="categories-list d-none d-md-flex">
+            <div class="item">
+              <div class="icon">
+                <img src="img/Group 40.png" alt="" />
+              </div>
+              <div class="name">
+                <a href="saler.html">Electronics</a>
+              </div>
+            </div>
+            <div class="item">
+              <div class="icon">
+                <img src="img/Group 74.png" alt="" />
+              </div>
+              <div class="name">
+                <a href="proDetails.html"> Fashion </a>
+              </div>
+            </div>
+            <div class="item active">
+              <div class="icon">
+                <img src="img/Group 75.png" alt="" />
+              </div>
+              <div class="name">
+                <a href="payment.html"> Sports </a>
+              </div>
+            </div>
+            <div class="item">
+              <div class="icon">
+                <img src="img/Group 44.png" alt="" />
+              </div>
+              <div class="name">
+                <a href="index.html"> Home </a>
+              </div>
+            </div>
+            <div class="item">
+              <div class="icon">
+                <img src="img/Group 42.png" alt="" />
+              </div>
+              <div class="name">
+                <a href="conditions.html"> Kitchen </a>
+              </div>
+            </div>
+            <div class="item">
+              <div class="icon">
+                <img src="img/Group 59.png" alt="" />
+              </div>
+              <div class="name">
+                <a href="allProduct.html"> Beauty </a>
+              </div>
+            </div>
+            <div class="item">
+              <div class="icon">
+                <img src="img/Group 71.png" alt="" />
+              </div>
+              <div class="name">
+                <a href="activate-account.html"> Perfumes </a>
+              </div>
+            </div>
+            <div class="item">
+              <div class="icon">
+                <img src="img/Group 26.png" alt="" />
+              </div>
+              <div class="name">
+                <a href="allProduct.html"> Baby </a>
+              </div>
+            </div>
+            <div class="item">
+              <div class="icon">
+                <img src="img/Group 60.png" alt="" />
+              </div>
+              <div class="name">
+                <a href="allProduct.html"> toys </a>
+              </div>
+            </div>
+          </div>
+          <div class="categories-list categories-list-slider   d-md-none owl-carousel">
+            <div class="item">
+              <div class="icon">
+                <img src="img/Group 40.png" alt="" />
+              </div>
+              <div class="name">
+                <a href=""> Electronics </a>
+              </div>
+            </div>
+            <div class="item">
+              <div class="icon">
+                <img src="img/Group 74.png" alt="" />
+              </div>
+              <div class="name">
+                <a href="allProduct.html"> Fashion </a>
+              </div>
+            </div>
+            <div class="item active">
+              <div class="icon">
+                <img src="img/Group 75.png" alt="" />
+              </div>
+              <div class="name">
+                <a href="allProduct.html"> Sports </a>
+              </div>
+            </div>
+            <div class="item">
+              <div class="icon">
+                <img src="img/Group 44.png" alt="" />
+              </div>
+              <div class="name">
+                <a href="allProduct.html"> Home </a>
+              </div>
+            </div>
+            <div class="item">
+              <div class="icon">
+                <img src="img/Group 42.png" alt="" />
+              </div>
+              <div class="name">
+                <a href="allProduct.html"> Kitchen </a>
+              </div>
+            </div>
+            <div class="item">
+              <div class="icon">
+                <img src="img/Group 59.png" alt="" />
+              </div>
+              <div class="name">
+                <a href="allProduct.html"> Beauty </a>
+              </div>
+            </div>
+            <div class="item">
+              <div class="icon">
+                <img src="img/Group 71.png" alt="" />
+              </div>
+              <div class="name">
+                <a href="allProduct.html"> Perfumes </a>
+              </div>
+            </div>
+            <div class="item">
+              <div class="icon">
+                <img src="img/Group 26.png" alt="" />
+              </div>
+              <div class="name">
+                <a href="allProduct.html"> Baby </a>
+              </div>
+            </div>
+            <div class="item">
+              <div class="icon">
+                <img src="img/Group 60.png" alt="" />
+              </div>
+              <div class="name">
+                <a href="allProduct.html"> toys </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="input-group mb-3">
+          <input type="text" class="form-control" placeholder="Let us help you with what you think" />
+          <div class="input-group-append">
+            <button class="btn"><i class="fas fa-search"></i></button>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!--Header end-->
+    <section class="checkout">
+      <div class="container">
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+          <li class="nav-item">
+            <a
+              class="nav-link active"
+              id="personal-information-tab"
+              data-toggle="tab"
+              href="#personal-information"
+              role="tab"
+              aria-controls="personal-information"
+              aria-selected="false"
+            >
+              Personal Information
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              id="orders-history-tab"
+              data-toggle="tab"
+              href="#orders-history"
+              role="tab"
+              aria-controls="orders-history"
+              aria-selected="true"
+            >
+              Orders History
+            </a>
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              id="favorite-products-tab"
+              data-toggle="tab"
+              href="#favorite-products"
+              role="tab"
+              aria-controls="favorite-products"
+              aria-selected="true"
+            >
+              Favorite Products
+            </a>
+          </li>
+        </ul>
+        <div class="tab-content" id="myTabContent">
+          <div
+            class="tab-pane fade show active"
+            id="personal-information"
+            role="tabpanel"
+            aria-labelledby="personal-information-tab"
+          >
+            <div class="head">
+              <h3>
+                Personal Information
+              </h3>
+              <div class="hr"></div>
+            </div>
+            <div class="content">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="input-info">
+                    <label for="fname">First Name</label>
+                    <input class="form-control"
+                      type="text"
+                      id="fname"
+                      name="fname"
+                      placeholder="Ahmed"
+                    />
+                    <i class="fas fa-pencil-alt"></i>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="input-info">
+                    <label for="phone">Mobile</label>
+                    <input class="form-control" type="tel" id="phone" />
+                    <i class="fas fa-pencil-alt"></i>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="input-info">
+                    <label for="lname">Last Name</label>
+                    <input class="form-control"
+                      type="text"
+                      id="lname"
+                      name="lname"
+                      placeholder="Nasr"
+                    />
+                    <i class="fas fa-pencil-alt"></i>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="input-info">
+                    <label for="address">Address</label>
+                    <input class="form-control"
+                    
+                      type="text"
+                      id="address"
+                      name="address"
+                      placeholder="Near Starbucks Outside Boulevard Plaza T2…"
+                    />
+                    <i class="fas fa-map-marker-alt"></i>
+
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="input-info">
+                    <label for="email">E-mail</label>
+                    <input class="form-control"
+                      type="email"
+                      id="email"
+                      name="email"
+                      placeholder="info@nasrc1one.com"
+                    />
+                    <i class="fas fa-pencil-alt"></i>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="input-info">
+                    <label for="password">Password</label>
+                    <input class="form-control" type="password" name="password" id="password" />
+                    <i class="fas fa-pencil-alt"></i>
+                  </div>
+                </div>
+                <div class="col-md-12">
+                  <button class="btn">Save Edits</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="tab-pane fade"
+            id="orders-history"
+            role="tabpanel"
+            aria-labelledby="orders-history-tab"
+          >
+            <div class="content-body">
+              <div class="row">
+                <div class="col-md-3">
+                  <div class="box">
+                    <div class="input-group mb-3">
+                      <input
+                        type="text"
+                        class="form-control"
+                        placeholder="Search All Orders"
+                      />
+                      <div class="input-group-append">
+                        <button class="btn">
+                          <i class="fas fa-search"></i>
+                        </button>
+                      </div>
+                    </div>
+                    <div class="by-date">
+                      <label for="">Searsh By Date</label>
+                      <input
+                        type="month"
+                        class="form-control"
+                        placeholder="Let us help you with what you think"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-9">
+                  <div class="order-details">
+
+                    <ul class="nav nav-tabs" id="myTab" role="tablist">
+                        <li class="nav-item">
+                          <a
+                            class="nav-link active"
+                            id="order-tab"
+                            data-toggle="tab"
+                            href="#order"
+                            role="tab"
+                            aria-controls="order"
+                            aria-selected="false"
+                          >
+                           Orders
+                          </a>
+                        </li>
+          
+                        <li class="nav-item">
+                          <a
+                            class="nav-link "
+                            id="open-order-tab"
+                            data-toggle="tab"
+                            href="#open-order"
+                            role="tab"
+                            aria-controls="open-order"
+                            aria-selected="true"
+                          >
+                            Open Orders
+                          </a>
+                        </li>
+                        <li class="nav-item">
+                            <a
+                              class="nav-link"
+                              id="digital-order-tab"
+                              data-toggle="tab"
+                              href="#digital-order"
+                              role="tab"
+                              aria-controls="digital-order"
+                              aria-selected="false"
+                            >
+                             Digital Orders
+                            </a>
+                          </li>
+            
+                          <li class="nav-item">
+                            <a
+                              class="nav-link "
+                              id="cancelled-order-tab"
+                              data-toggle="tab"
+                              href="#cancelled-order"
+                              role="tab"
+                              aria-controls="cancelled-order"
+                              aria-selected="true"
+                            >
+                              Cancelled Orders
+                            </a>
+                          </li>
+
+                      </ul>
+                      <div class="tab-content" id="myTabContent">
+                        <div
+                          class="tab-pane fade show active"
+                          id="order"
+                          role="tabpanel"
+                          aria-labelledby="order-tab"
+                        >
+                       <div class="item-box">
+                           <div class="item-header">
+                               <div class="left-side">
+                                   <div class="order-date">
+                                    <p>Order placed  |   </p>
+                                    <span>February 20, 2020</span>
+                                   </div>
+                                   <div class="order-date">
+                                    <p>Order #   |  </p>
+                                    <span>112-0081771-3999461</span>
+                                   </div>
+                               </div>
+                               <div class="right-side">
+<p>Order Details   |   </p>
+<p>Invoice</p>
+                               </div>
+                           </div>
+                        <div class="item">
+                            <div class="left-info">
+                              <div class="about-img">
+                                <img src="img/Image 2.png" alt="" />
+                              </div>
+                              <div class="about-text">
+                                <p>Generic</p>
+                                <h5>All Purpose Extra Thick Yoga Mat</h5>
+                                <div class="time">
+                                  <div class="icon">
+                                    <img src="img/XMLID_2_.png" alt="" />
+                                  </div>
+                                  <div class="text">
+                                    <p>Delivered by Sun, May 24</p>
+                                    <p>when you order in 18 hrs 38 mins</p>
+                                  </div>
+                                </div>
+                            
+                              </div>
+                            </div>
+                            <div class="right-info">
+
+                              <div class="text">
+                                  <span>Total</span>
+                                  <h3>AED 2899.00</h3>
+                            
+                              </div>
+                            </div>
+                          </div>
+                       </div>
+                       <div class="item-box">
+                        <div class="item-header">
+                            <div class="left-side">
+                                <div class="order-date">
+                                 <p>Order placed  |   </p>
+                                 <span>February 20, 2020</span>
+                                </div>
+                                <div class="order-date">
+                                 <p>Order #   |  </p>
+                                 <span>112-0081771-3999461</span>
+                                </div>
+                            </div>
+                            <div class="right-side">
+<p>Order Details   |   </p>
+<p>Invoice</p>
+                            </div>
+                        </div>
+                     <div class="item">
+                         <div class="left-info">
+                           <div class="about-img">
+                             <img src="img/Image 2.png" alt="" />
+                           </div>
+                           <div class="about-text">
+                             <p>Generic</p>
+                             <h5>All Purpose Extra Thick Yoga Mat</h5>
+                             <div class="time">
+                               <div class="icon">
+                                 <img src="img/XMLID_2_.png" alt="" />
+                               </div>
+                               <div class="text">
+                                 <p>Delivered by Sun, May 24</p>
+                                 <p>when you order in 18 hrs 38 mins</p>
+                               </div>
+                             </div>
+                         
+                           </div>
+                         </div>
+                         <div class="right-info">
+
+                           <div class="text">
+                               <span>Total</span>
+                               <h3>AED 2899.00</h3>
+                         
+                           </div>
+                         </div>
+                       </div>
+                    </div>
+                    <div class="item-box">
+                        <div class="item-header">
+                            <div class="left-side">
+                                <div class="order-date">
+                                 <p>Order placed  |   </p>
+                                 <span>February 20, 2020</span>
+                                </div>
+                                <div class="order-date">
+                                 <p>Order #   |  </p>
+                                 <span>112-0081771-3999461</span>
+                                </div>
+                            </div>
+                            <div class="right-side">
+<p>Order Details   |   </p>
+<p>Invoice</p>
+                            </div>
+                        </div>
+                     <div class="item">
+                         <div class="left-info">
+                           <div class="about-img">
+                             <img src="img/Image 2.png" alt="" />
+                           </div>
+                           <div class="about-text">
+                             <p>Generic</p>
+                             <h5>All Purpose Extra Thick Yoga Mat</h5>
+                             <div class="time">
+                               <div class="icon">
+                                 <img src="img/XMLID_2_.png" alt="" />
+                               </div>
+                               <div class="text">
+                                 <p>Delivered by Sun, May 24</p>
+                                 <p>when you order in 18 hrs 38 mins</p>
+                               </div>
+                             </div>
+                         
+                           </div>
+                         </div>
+                         <div class="right-info">
+
+                           <div class="text">
+                               <span>Total</span>
+                               <h3>AED 2899.00</h3>
+                         
+                           </div>
+                         </div>
+                       </div>
+                    </div>
+                    <div class="item-box">
+                        <div class="item-header">
+                            <div class="left-side">
+                                <div class="order-date">
+                                 <p>Order placed  |   </p>
+                                 <span>February 20, 2020</span>
+                                </div>
+                                <div class="order-date">
+                                 <p>Order #   |  </p>
+                                 <span>112-0081771-3999461</span>
+                                </div>
+                            </div>
+                            <div class="right-side">
+<p>Order Details   |   </p>
+<p>Invoice</p>
+                            </div>
+                        </div>
+                     <div class="item">
+                         <div class="left-info">
+                           <div class="about-img">
+                             <img src="img/Image 2.png" alt="" />
+                           </div>
+                           <div class="about-text">
+                             <p>Generic</p>
+                             <h5>All Purpose Extra Thick Yoga Mat</h5>
+                             <div class="time">
+                               <div class="icon">
+                                 <img src="img/XMLID_2_.png" alt="" />
+                               </div>
+                               <div class="text">
+                                 <p>Delivered by Sun, May 24</p>
+                                 <p>when you order in 18 hrs 38 mins</p>
+                               </div>
+                             </div>
+                         
+                           </div>
+                         </div>
+                         <div class="right-info">
+
+                           <div class="text">
+                               <span>Total</span>
+                               <h3>AED 2899.00</h3>
+                         
+                           </div>
+                         </div>
+                       </div>
+                    </div>
+                     
+                          </div>
+                          <div
+                          class="tab-pane fade"
+                          id="open-order"
+                          role="tabpanel"
+                          aria-labelledby="open-order-tab"
+                        >
+                        <div class="item-box">
+                            <div class="item-header">
+                                <div class="left-side">
+                                    <div class="order-date">
+                                     <p>Order placed  |   </p>
+                                     <span>February 20, 2020</span>
+                                    </div>
+                                    <div class="order-date">
+                                     <p>Order #   |  </p>
+                                     <span>112-0081771-3999461</span>
+                                    </div>
+                                </div>
+                                <div class="right-side">
+    <p>Order Details   |   </p>
+    <p>Invoice</p>
+                                </div>
+                            </div>
+                         <div class="item">
+                             <div class="left-info">
+                               <div class="about-img">
+                                 <img src="img/Image 2.png" alt="" />
+                               </div>
+                               <div class="about-text">
+                                 <p>Generic</p>
+                                 <h5>All Purpose Extra Thick Yoga Mat</h5>
+                                 <div class="time">
+                                   <div class="icon">
+                                     <img src="img/XMLID_2_.png" alt="" />
+                                   </div>
+                                   <div class="text">
+                                     <p>Delivered by Sun, May 24</p>
+                                     <p>when you order in 18 hrs 38 mins</p>
+                                   </div>
+                                 </div>
+                             
+                               </div>
+                             </div>
+                             <div class="right-info">
+    
+                               <div class="text">
+                                   <span>Total</span>
+                                   <h3>AED 2899.00</h3>
+                             
+                               </div>
+                             </div>
+                           </div>
+                        </div>
+                        <div class="item-box">
+                            <div class="item-header">
+                                <div class="left-side">
+                                    <div class="order-date">
+                                     <p>Order placed  |   </p>
+                                     <span>February 20, 2020</span>
+                                    </div>
+                                    <div class="order-date">
+                                     <p>Order #   |  </p>
+                                     <span>112-0081771-3999461</span>
+                                    </div>
+                                </div>
+                                <div class="right-side">
+    <p>Order Details   |   </p>
+    <p>Invoice</p>
+                                </div>
+                            </div>
+                         <div class="item">
+                             <div class="left-info">
+                               <div class="about-img">
+                                 <img src="img/Image 2.png" alt="" />
+                               </div>
+                               <div class="about-text">
+                                 <p>Generic</p>
+                                 <h5>All Purpose Extra Thick Yoga Mat</h5>
+                                 <div class="time">
+                                   <div class="icon">
+                                     <img src="img/XMLID_2_.png" alt="" />
+                                   </div>
+                                   <div class="text">
+                                     <p>Delivered by Sun, May 24</p>
+                                     <p>when you order in 18 hrs 38 mins</p>
+                                   </div>
+                                 </div>
+                             
+                               </div>
+                             </div>
+                             <div class="right-info">
+    
+                               <div class="text">
+                                   <span>Total</span>
+                                   <h3>AED 2899.00</h3>
+                             
+                               </div>
+                             </div>
+                           </div>
+                        </div>
+                        <div class="item-box">
+                            <div class="item-header">
+                                <div class="left-side">
+                                    <div class="order-date">
+                                     <p>Order placed  |   </p>
+                                     <span>February 20, 2020</span>
+                                    </div>
+                                    <div class="order-date">
+                                     <p>Order #   |  </p>
+                                     <span>112-0081771-3999461</span>
+                                    </div>
+                                </div>
+                                <div class="right-side">
+    <p>Order Details   |   </p>
+    <p>Invoice</p>
+                                </div>
+                            </div>
+                         <div class="item">
+                             <div class="left-info">
+                               <div class="about-img">
+                                 <img src="img/Image 2.png" alt="" />
+                               </div>
+                               <div class="about-text">
+                                 <p>Generic</p>
+                                 <h5>All Purpose Extra Thick Yoga Mat</h5>
+                                 <div class="time">
+                                   <div class="icon">
+                                     <img src="img/XMLID_2_.png" alt="" />
+                                   </div>
+                                   <div class="text">
+                                     <p>Delivered by Sun, May 24</p>
+                                     <p>when you order in 18 hrs 38 mins</p>
+                                   </div>
+                                 </div>
+                             
+                               </div>
+                             </div>
+                             <div class="right-info">
+    
+                               <div class="text">
+                                   <span>Total</span>
+                                   <h3>AED 2899.00</h3>
+                             
+                               </div>
+                             </div>
+                           </div>
+                        </div>
+                        </div>
+                        <div
+                        class="tab-pane fade"
+                        id="digital-order"
+                        role="tabpanel"
+                        aria-labelledby="digital-order-tab"
+                      >
+                      <div class="item-box">
+                        <div class="item-header">
+                            <div class="left-side">
+                                <div class="order-date">
+                                 <p>Order placed  |   </p>
+                                 <span>February 20, 2020</span>
+                                </div>
+                                <div class="order-date">
+                                 <p>Order #   |  </p>
+                                 <span>112-0081771-3999461</span>
+                                </div>
+                            </div>
+                            <div class="right-side">
+<p>Order Details   |   </p>
+<p>Invoice</p>
+                            </div>
+                        </div>
+                     <div class="item">
+                         <div class="left-info">
+                           <div class="about-img">
+                             <img src="img/Image 2.png" alt="" />
+                           </div>
+                           <div class="about-text">
+                             <p>Generic</p>
+                             <h5>All Purpose Extra Thick Yoga Mat</h5>
+                             <div class="time">
+                               <div class="icon">
+                                 <img src="img/XMLID_2_.png" alt="" />
+                               </div>
+                               <div class="text">
+                                 <p>Delivered by Sun, May 24</p>
+                                 <p>when you order in 18 hrs 38 mins</p>
+                               </div>
+                             </div>
+                         
+                           </div>
+                         </div>
+                         <div class="right-info">
+
+                           <div class="text">
+                               <span>Total</span>
+                               <h3>AED 2899.00</h3>
+                         
+                           </div>
+                         </div>
+                       </div>
+                    </div>
+                    <div class="item-box">
+                        <div class="item-header">
+                            <div class="left-side">
+                                <div class="order-date">
+                                 <p>Order placed  |   </p>
+                                 <span>February 20, 2020</span>
+                                </div>
+                                <div class="order-date">
+                                 <p>Order #   |  </p>
+                                 <span>112-0081771-3999461</span>
+                                </div>
+                            </div>
+                            <div class="right-side">
+<p>Order Details   |   </p>
+<p>Invoice</p>
+                            </div>
+                        </div>
+                     <div class="item">
+                         <div class="left-info">
+                           <div class="about-img">
+                             <img src="img/Image 2.png" alt="" />
+                           </div>
+                           <div class="about-text">
+                             <p>Generic</p>
+                             <h5>All Purpose Extra Thick Yoga Mat</h5>
+                             <div class="time">
+                               <div class="icon">
+                                 <img src="img/XMLID_2_.png" alt="" />
+                               </div>
+                               <div class="text">
+                                 <p>Delivered by Sun, May 24</p>
+                                 <p>when you order in 18 hrs 38 mins</p>
+                               </div>
+                             </div>
+                         
+                           </div>
+                         </div>
+                         <div class="right-info">
+
+                           <div class="text">
+                               <span>Total</span>
+                               <h3>AED 2899.00</h3>
+                         
+                           </div>
+                         </div>
+                       </div>
+                    </div>
+                
+                      </div>
+                      <div
+                      class="tab-pane fade"
+                      id="cancelled-order"
+                      role="tabpanel"
+                      aria-labelledby="cancelled-order-tab"
+                    >
+                    <div class="item-box">
+                        <div class="item-header">
+                            <div class="left-side">
+                                <div class="order-date">
+                                 <p>Order placed  |   </p>
+                                 <span>February 20, 2020</span>
+                                </div>
+                                <div class="order-date">
+                                 <p>Order #   |  </p>
+                                 <span>112-0081771-3999461</span>
+                                </div>
+                            </div>
+                            <div class="right-side">
+<p>Order Details   |   </p>
+<p>Invoice</p>
+                            </div>
+                        </div>
+                     <div class="item">
+                         <div class="left-info">
+                           <div class="about-img">
+                             <img src="img/Image 2.png" alt="" />
+                           </div>
+                           <div class="about-text">
+                             <p>Generic</p>
+                             <h5>All Purpose Extra Thick Yoga Mat</h5>
+                             <div class="time">
+                               <div class="icon">
+                                 <img src="img/XMLID_2_.png" alt="" />
+                               </div>
+                               <div class="text">
+                                 <p>Delivered by Sun, May 24</p>
+                                 <p>when you order in 18 hrs 38 mins</p>
+                               </div>
+                             </div>
+                         
+                           </div>
+                         </div>
+                         <div class="right-info">
+
+                           <div class="text">
+                               <span>Total</span>
+                               <h3>AED 2899.00</h3>
+                         
+                           </div>
+                         </div>
+                       </div>
+                    </div>
+                  
+                    </div>
+                        </div>
+
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="tab-pane fade"
+            id="favorite-products"
+            role="tabpanel"
+            aria-labelledby="favorite-products-tab"
+          >
+            <!--Cards section start-->
+            <div class="down-cards">
+              <div class="row">
+                <div class="col-md-2">
+                  <div class="card">
+                    <div class="close-tab">
+                      <a href="">
+                        <i class="fas fa-times"></i>
+                      </a>
+                    </div>
+                    <img
+                      src="img/colored-lab.png"
+                      class="card-img-top"
+                      alt="shirt"
+                    />
+                    <div class="card-body">
+                      <p class="card-text">
+                        Multipurpose Inflatable Sofa Black 221x66x107 cm
+                      </p>
+
+                      <div class="price">
+                        <h5>AED 399</h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-2">
+                  <div class="card">
+                    <div class="close-tab">
+                        <a href="">
+                          <i class="fas fa-times"></i>
+                        </a>
+                      </div>
+                    <img
+                      src="img/2phones.png"
+                      class="card-img-top"
+                      alt="shirt"
+                    />
+                    <div class="card-body">
+                      <p class="card-text">
+                        Multipurpose Inflatable Sofa Black 221x66x107 cm
+                      </p>
+
+                      <div class="price">
+                        <h5>AED 399</h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-2">
+                  <div class="card">
+                    <div class="close-tab">
+                        <a href="">
+                          <i class="fas fa-times"></i>
+                        </a>
+                      </div>
+                    <img src="img/nike.png" class="card-img-top" alt="shirt" />
+                    <div class="card-body">
+                      <p class="card-text">
+                        Multipurpose Inflatable Sofa Black 221x66x107 cm
+                      </p>
+
+                      <div class="price">
+                        <h5>AED 399</h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-2">
+                    
+                  <div class="card">
+                    <div class="close-tab">
+                        <a href="">
+                          <i class="fas fa-times"></i>
+                        </a>
+                      </div>
+                    <img src="img/lcd.png" class="card-img-top" alt="shirt" />
+                    <div class="card-body">
+                      <p class="card-text">
+                        Multipurpose Inflatable Sofa Black 221x66x107 cm
+                      </p>
+
+                      <div class="price">
+                        <h5>AED 399</h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--Cards section end-->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Footer start-->
+    <footer>
+      <div class="upperFooter">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-2">
+              <div class="title">
+                electronics
+              </div>
+              <ul>
+                <a href=""><li>mobiles</li></a>
+                <a href=""> <li>tablets</li></a>
+                <a href=""> <li>laptops</li></a>
+                <a href=""> <li>home appliances</li></a>
+                <a href=""> <li>camera, photo & video</li></a>
+                <a href=""> <li>televisions</li></a>
+                <a href=""> <li>headphones</li></a>
+                <a href=""> <li>video games</li></a>
+              </ul>
+            </div>
+            <div class="col-md-2">
+              <div class="title">
+                fashion
+              </div>
+              <ul>
+                <a href=""> <li>women’s fashion</li></a>
+                <a href=""> <li>men’s fashion</li></a>
+                <a href=""> <li>girls’ fashion</li></a>
+                <a href=""> <li>boys’ fashion</li></a>
+                <a href=""> <li>watches</li></a>
+                <a href=""> <li>jewellery</li></a>
+                <a href=""> <li>women’s handbags</li></a>
+                <a href=""> <li>men’s eyewear</li></a>
+              </ul>
+            </div>
+            <div class="col-md-2">
+              <div class="title">
+                home and kitchen
+              </div>
+              <ul>
+                <a href=""> <li>bath</li></a>
+                <a href=""> <li>home decor</li></a>
+                <a href=""> <li>kitchen & dining</li></a>
+                <a href=""> <li>Tools & Home Improvement</li></a>
+                <a href=""> <li>audio & video</li></a>
+                <a href=""> <li>furniture</li></a>
+                <a href=""> <li>Patio, Lawn & Garden</li></a>
+                <a href=""> <li>pet supplies</li></a>
+              </ul>
+            </div>
+            <div class="col-md-2">
+              <div class="title">
+                beauty
+              </div>
+              <ul>
+                <a href=""> <li>fragrance</li></a>
+                <a href=""> <li>make-up</li></a>
+                <a href=""> <li>haircare</li></a>
+                <a href=""> <li>skincare</li></a>
+                <a href=""> <li>personal care</li></a>
+                <a href=""> <li>tools & accessories</li></a>
+                <a href=""> <li>men’s grooming</li></a>
+                <a href=""> <li>vitamins</li></a>
+              </ul>
+            </div>
+            <div class="col-md-2">
+              <div class="title">
+                baby
+              </div>
+              <ul>
+                <a href=""><li>Strollers & Prams</li></a>
+                <a href=""> <li>car seats</li></a>
+                <a href=""> <li>feeding</li></a>
+                <a href=""> <li>bathing & skincare</li></a>
+                <a href=""> <li>diapering</li></a>
+                <a href=""> <li>baby clothing & shoes</li></a>
+                <a href=""> <li>baby & toddler toys</li></a>
+                <a href=""> <li>baby foods</li></a>
+              </ul>
+            </div>
+            <div class="col-md-2">
+              <div class="title">
+                top brands
+              </div>
+              <ul>
+                <a href=""><li>mothercare</li></a>
+                <a href=""><li>apple</li></a>
+                <a href=""><li>nike</li></a>
+                <a href=""><li>samsung</li></a>
+                <a href=""><li>tefal</li></a>
+                <a href=""><li>l’Oreal paris</li></a>
+                <a href=""><li>skechers</li></a>
+                <a href=""><li>silsal</li></a>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="middleFooter">
+        <div class="container">
+          <ul class="middleFooter-inner">
+            <li><a href="">Careers</a></li>
+           <li> <a href="">Warranty Policy</a></li>
+           <li> <a href="">Sell with us </a></li>
+            <li><a href="">Terms of Use</a></li>
+            <li><a href="">Terms of Sale</a></li>
+           <li> <a href="">Privacy Policy</a></li>
+            <li><a href="">Consumer Rights</a></li>
+          </ul>
+    
+        </div>
+      </div>
+      <div class="downFooter">
+        <div class="container">
+          <div class="row d-flex align-items-center">
+            <div class="col-md-4">
+              <div class="allRights">
+                © 2020 Rawa. All Rights Reserved.
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="logo">
+                <img src="img/logo-inline.png" alt="logo" />
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="socialMedia">
+                <a href=""><i class="fab fa-facebook-f"></i></a>
+                <a href=""><i class="fab fa-instagram"></i></a>
+                <a href=""><i class="fab fa-twitter"></i></a>
+                <a href=""><i class="fab fa-linkedin-in"></i></a>
+                <a href=""><i class="fab fa-youtube"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!--Footer end-->
+    <!--Start scripts-->
+    <script src="js/all.min.js"></script>
+<script
+  src="https://code.jquery.com/jquery-2.2.4.min.js"
+  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+  crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/13.0.0/js/intlTelInput.min.js"></script>
+
+
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+    <!--Isotope filter-->
+    <script src="js/isotope.pkgd.min.js"></script>
+    <!--Controller filter-->
+    
+    <!--Google map-->
+
+    <!-- Owl Crousel-->
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
+    <!--End scripts-->
+  </body>
+</html>

@@ -4242,8 +4242,8 @@ header .account-cart .dropdown {
 
 .carousel-item {
   width: 100%;
-  min-height: 600px;
-  height: calc(100vh - 284px);
+  min-height: 550px;
+  height: calc(100vh - 222px);
   position: relative;
 }
 
@@ -4363,4 +4363,42 @@ header .account-cart .dropdown {
   background: #76359b;
 }
 
+.home-slider1 .form-control {
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+}
+
+.home-slider1 .form-control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #9AA9AC;
+  opacity: 1; /* Firefox */
+}
+
+.home-slider1 .form-control:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #9AA9AC;
+}
+
+.home-slider1 .form-control::-ms-input-placeholder { /* Microsoft Edge */
+  color: #9AA9AC;
+}
+
+.icon-gif img {
+  width: auto !important;
+  height: 40px !important;
+  object-fit: none !important;
+}
+
+header .categories-list .item .name {
+  margin-top: 0;
+}
+
+header .categories-list .item {
+  padding-bottom: 10px;
+}
+
+header .categories-list {
+  margin-top: 30px !important;
+}
 /* ... */

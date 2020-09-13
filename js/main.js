@@ -11,7 +11,7 @@
   $(window).scroll(function () {
     if ($('.fixed-top-bar').length) {
       // alert('dd');
-      var sticky = $('.header-top'),
+      var sticky = $('.new-product'),
         scroll = $(window).scrollTop();
 
       if (scroll >= sticky.offset().top) {

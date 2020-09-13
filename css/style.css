@@ -3592,14 +3592,14 @@ header .input-group .input-group-append button {
 
 .normal-product .card-body{
   background: #FFF;
-  position: absolute;
+  /* position: absolute;
   transition: all 0.4s ease;
   -webkit-transition: all 0.4s ease;
   -moz-transition: all 0.4s ease;
   -ms-transition: all 0.4s ease;
   -o-transition: all 0.4s ease;
   bottom: -50px;
-z-index: 4;
+  z-index: 4; */
 }
 
 .normal-product:hover .card-body {
@@ -3616,7 +3616,7 @@ bottom: 0;
 }
 
 .normal-product .card-img {
-  height: 360px;
+  height: 235px;
   overflow: hidden;
   position: relative;
 }
@@ -3633,7 +3633,7 @@ bottom: 0;
 }
 
 .pro-caption {
-  position: absolute;
+  /* position: absolute;
   top: 80%;
   left: 50%;
   width: 100%;
@@ -3653,7 +3653,8 @@ bottom: 0;
   -webkit-transition: all 0.6s ease;
   -moz-transition: all 0.6s ease;
   -ms-transition: all 0.6s ease;
-  -o-transition: all 0.6s ease;
+  -o-transition: all 0.6s ease; */
+  display: none !important;
 }
 
 .pro-caption a {
@@ -3742,13 +3743,7 @@ bottom: 0;
 }
 
 .sm-prod:hover .card-img img {
-  filter: none !important;
-  -webkit-filter: none !important;
-  transform: none !important;
-  -webkit-transform: none !important;
-  -moz-transform: none !important;
-  -ms-transform: none !important;
-  -o-transform: none !important;
+
 }
 /* .sm-prod .card-text { mediun
   font-size: 14px !important;
@@ -4388,6 +4383,11 @@ header .account-cart .dropdown {
   width: auto !important;
   height: 40px !important;
   object-fit: none !important;
+  transition: all 0.2s linear;
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -ms-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
 }
 
 header .categories-list .item .name {
@@ -4400,5 +4400,14 @@ header .categories-list .item {
 
 header .categories-list {
   margin-top: 30px !important;
+}
+
+header .categories-list .item:hover .icon-gif img  {
+  transform: translateY(-5px);
+  -webkit-transform: translateY(-5px);
+  -moz-transform: translateY(-5px);
+  -ms-transform: translateY(-5px);
+  -o-transform: translateY(-5px);
+  filter: saturate(3);
 }
 /* ... */

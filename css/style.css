@@ -4253,7 +4253,8 @@ footer .middleFooter a:hover::before {
   -o-border-radius: 0;
   padding-right: 50px;
   background: none !important;
-  border-color: #3C3F41;
+  border-color: transparent;
+  color: #FFF;
 }
 
 .form-bar .form-control:focus {

@@ -14,6 +14,21 @@ function update() {
 
 $(window).bind('scroll', update);
 
+// Y axis scroll speed
+var velocity2 = 0.08;
+
+function update2() {
+  var pos2 = $(window).scrollTop();
+  $('.fashion-gallery-bg').each(function () {
+    var $element2 = $(this);
+    // subtract some from the height b/c of the padding
+    var height2 = $element2.height() + 18;
+    $(this).css('backgroundPosition', '50% ' + Math.round((height2 + 190 - pos2) * velocity2) + 'px');
+  });
+};
+
+$(window).bind('scroll', update2);
+
 (function ($) {
 
 

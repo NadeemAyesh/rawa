@@ -762,6 +762,8 @@ footer .downFooter .socialMedia a:hover {
 
 .fashion-gallery .header {
   padding-bottom: 135px;
+  position: relative;
+  z-index: 99;
 }
 
 .fashion-gallery .header .head {

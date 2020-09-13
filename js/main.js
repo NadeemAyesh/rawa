@@ -1,6 +1,6 @@
 
 // Y axis scroll speed
-var velocity = 0.1;
+var velocity = 0.08;
 
 function update() {
   var pos = $(window).scrollTop();
